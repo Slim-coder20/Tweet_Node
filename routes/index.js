@@ -4,6 +4,6 @@ const router = require("express").Router();
 
 // Définition de la route sur la page d'acceuil 
 router.get("/", (req, res) => {
-  res.render("home");
+  res.render("tweets/tweet-list");
 })
 module.exports = router;

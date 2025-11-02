@@ -1,6 +1,36 @@
-.topbar {
-  height: 50px;
-  background-color: #333;
- 
+.content {
+  max-width: 1000px;
+  margin-top: 20px;
+
 }
 
+.btn-tweet {
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+}
+.btn-tweet:hover {
+  background-color: #1573A8;
+  transform: translateY(-2px);
+}
+
+.profile-container {
+  width: 30%;
+  max-width: 300px;
+
+}
+
+.b {
+  border: 1px solid red
+}
+
+.b1 {
+  border: 1px solid green;
+}
