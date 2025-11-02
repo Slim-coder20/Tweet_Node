@@ -10,6 +10,9 @@ const path = require("path");
 const morgan = require("morgan");
 // Import du module index pour la route sur la page d'acceuil
 const index = require("./routes");
+// Import du module index pour la route sur la page d'acceuil
+require('./database')
+
 // ============================================
 // CRÉATION DE L'APPLICATION EXPRESS
 // ============================================
@@ -47,8 +50,8 @@ app.use(express.json());
 // (extended: true permet d'utiliser la bibliothèque qs au lieu de querystring)
 app.use(express.urlencoded({ extended: true }));
 
-// difinr la route sur la page d'acceuil // 
-app.use(index); 
+// difinr la route sur la page d'acceuil //
+app.use(index);
 
 // ============================================
 // LANCEMENT DU SERVEUR
